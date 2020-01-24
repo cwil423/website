@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<header>
+  <h1>Weather</h1>
+  <p>This page tells you what the weather is like at your location</p>
+</header>
+<section>
+<h1 class="temperature"></h1>
+<h1 class="summary"></h1>
+
+
+
+</section>
+
+<script type="text/javascript" src="{% static 'main_pages/weather.js' %}"></script>
+
+
+{% endblock content %}

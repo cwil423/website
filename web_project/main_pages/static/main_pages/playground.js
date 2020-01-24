@@ -1,5 +1,5 @@
 
-
+// Code for playground
 const backgrounds = [
   "url(https://wallpaperboat.com/wp-content/uploads/2019/06/minimalist-desktop-2.jpg)",
   "url(https://wallpaperaccess.com/full/99836.jpg)",
@@ -13,12 +13,10 @@ const backgrounds = [
 const backgroundButton = document.querySelector('.bgButton');
 const background = document.querySelector('body');
 
-
 backgroundButton.addEventListener('click', changeBackground);
 
 function changeBackground () {
   let random = Math.floor(Math.random()*backgrounds.length)
   background.style.backgroundImage = backgrounds[random]
 }
-
 

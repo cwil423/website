@@ -10,3 +10,6 @@ def project_view(request):
 
 def playground_view(request):
 	return render(request, 'playground.html')
+
+def weather_view(request):
+	return render(request, 'weather.html')

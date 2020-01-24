@@ -18,6 +18,7 @@ from django.urls import path
 from main_pages.views import home_view
 from main_pages.views import project_view
 from main_pages.views import playground_view
+from main_pages.views import weather_view
 
 
 
@@ -26,5 +27,6 @@ urlpatterns = [
     path('', home_view),
     path('projects/', project_view),
     path('playground/', playground_view),
+    path('weather/', weather_view),
 ]
 
